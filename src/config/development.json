@@ -29,6 +29,13 @@
     "HowToCall": {
       "_enum": ["Call", "DelegateCall"]
     },
+    "OrderQuery": {
+      "limit": "Option<u64>",
+      "offset": "Option<u64>",
+      "owner": "Option<AccountId>",
+      "token_ids": "Option<Vec<Vec<u8>>>",
+      "params": "Option<Vec<OrderField>>"
+    },
     "Identifier": "Vec<u8>",
     "Decimal": "i32"
   },
